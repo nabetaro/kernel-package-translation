@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2012-05-22 09:28+0900\n"
-"PO-Revision-Date: 2012-05-22 11:23+0900\n"
+"PO-Revision-Date: 2012-05-28 14:57+0900\n"
 "Last-Translator: KURASAWA Nozomu <nabetaro@debian.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -91,18 +91,18 @@ msgstr "説明"
 #. type: Plain text
 #: kernel-img.conf.5:39
 msgid "The file I</etc/kernel-img.conf> is a simple file looked at by the kernel image post installation process to allow local options for handling some aspects of the installation, overriding the defaults built into the image itself."
-msgstr ""
+msgstr "ファイル I</etc/kernel-img.conf> は、カーネルイメージのインストール後プロセスで参照するシンプルなファイルです。インストール時の各種挙動について、カーネルイメージに組み込まれたデフォルトを上書きして、ローカルの設定を保持できます。"
 
 #. type: Plain text
 #: kernel-img.conf.5:49
 msgid "The format of the file is a simple B<VAR = VALUE> pair. Boolean values may be specified as I<Yes, True, 1,> and I<No, False, 0,> and are case insensitive.  This file is automatically created by the installation script in certain circumstances."
-msgstr ""
+msgstr "ファイルのフォーマットは、シンプルな B<変数 = 値> のペアです。真偽値は I<Yes, True, 1,> と I<No, False, 0,> (大小文字区別しない) で指定してください。このファイルは、環境に応じてインストールスクリプトによって、自動生成されます。"
 
 #. type: Plain text
 #: kernel-img.conf.5:51
 #: kernel-pkg.conf.5:56
 msgid "At the moment, the user modifiable variables supported are:"
-msgstr ""
+msgstr "現在のところ、ユーザーが変更できる変数は、以下のものをサポートしています。"
 
 #. type: TP
 #: kernel-img.conf.5:51
@@ -275,7 +275,7 @@ msgstr "関連項目"
 #. type: Plain text
 #: kernel-img.conf.5:254
 msgid "B<make-kpkg>(1), B<kernel-pkg.conf>(5), B<make>(1), B<The GNU Make manual.>"
-msgstr ""
+msgstr "B<make-kpkg>(1), B<kernel-pkg.conf>(5), B<make>(1), B<GNU Make マニュアル>"
 
 #. type: SH
 #: kernel-img.conf.5:254
@@ -290,7 +290,7 @@ msgstr "バグ"
 #: kernel-package.5:170
 #: kernel-pkg.conf.5:350
 msgid "There are no bugs.  Any resemblance thereof is delirium. Really."
-msgstr ""
+msgstr "バグはありません。バグのように見えるものは錯覚です。本当ですよ。"
 
 #. type: SH
 #: kernel-img.conf.5:256
@@ -309,7 +309,7 @@ msgstr "著者"
 #: kernel-pkg.conf.5:352
 #: make-kpkg.8:719
 msgid "This manual page was written by Manoj Srivastava E<lt>srivasta@debian.orgE<gt>, for the Debian GNU/Linux system."
-msgstr ""
+msgstr "このマニュアルページは、Debian GNU/Linux システム向けに Manoj Srivastava E<lt>srivasta@debian.orgE<gt> が執筆しました。"
 
 #. type: TH
 #: kernel-package.5:26
@@ -337,13 +337,13 @@ msgstr ""
 #: kernel-package.5:42
 #, no-wrap
 msgid "Advantages of using kernel-package"
-msgstr ""
+msgstr "kernel-package の利点"
 
 #. type: TP
 #: kernel-package.5:44
 #, no-wrap
 msgid "B<i) Convenience.>"
-msgstr ""
+msgstr "B<i) 利便性>"
 
 #. type: Plain text
 #: kernel-package.5:53
@@ -354,7 +354,7 @@ msgstr ""
 #: kernel-package.5:53
 #, no-wrap
 msgid "B<ii) Multiple images support>"
-msgstr ""
+msgstr "B<ii) 複数イメージサポート>"
 
 #. type: Plain text
 #: kernel-package.5:57
@@ -365,7 +365,7 @@ msgstr ""
 #: kernel-package.5:57
 #, no-wrap
 msgid "B<iii) Multiple Flavors of the same kernel version>"
-msgstr ""
+msgstr "B<iii) 同一カーネルバージョンにおける複数フレーバー>"
 
 #. type: Plain text
 #: kernel-package.5:64
@@ -374,9 +374,9 @@ msgstr ""
 
 #. type: TP
 #: kernel-package.5:64
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "B<iv) Built in defaults>"
-msgstr ""
+msgstr "組み込みのスキーム(_M):"
 
 #. type: Plain text
 #: kernel-package.5:70
@@ -387,7 +387,7 @@ msgstr ""
 #: kernel-package.5:70
 #, no-wrap
 msgid "B<v) Module hooks>"
-msgstr ""
+msgstr "B<v) モジュールフック>"
 
 #. type: Plain text
 #: kernel-package.5:78
@@ -398,7 +398,7 @@ msgstr ""
 #: kernel-package.5:78
 #, no-wrap
 msgid "B<vi) dpkg support>"
-msgstr ""
+msgstr "B<vi) dpkg サポート>"
 
 #. type: Plain text
 #: kernel-package.5:84
@@ -409,7 +409,7 @@ msgstr ""
 #: kernel-package.5:84
 #, no-wrap
 msgid "B<vii) Configuration tracking>"
-msgstr ""
+msgstr "B<vii) 設定の追跡>"
 
 #. type: Plain text
 #: kernel-package.5:91
@@ -420,7 +420,7 @@ msgstr ""
 #: kernel-package.5:91
 #, no-wrap
 msgid "B<viii) Multiple config files>"
-msgstr ""
+msgstr "B<viii) 複数の設定ファイル>"
 
 #. type: Plain text
 #: kernel-package.5:97
@@ -442,7 +442,7 @@ msgstr ""
 #: kernel-package.5:103
 #, no-wrap
 msgid "B<x) Maintainer script services>"
-msgstr ""
+msgstr "B<x) メンテナスクリプトサービス>"
 
 #. type: Plain text
 #: kernel-package.5:108
@@ -453,7 +453,7 @@ msgstr ""
 #: kernel-package.5:108
 #, no-wrap
 msgid "B<xi) Sub architecture support>"
-msgstr ""
+msgstr "B<xi) サブアーキテクチャサポート>"
 
 #. type: Plain text
 #: kernel-package.5:112
@@ -475,7 +475,7 @@ msgstr ""
 #: kernel-package.5:118
 #, no-wrap
 msgid "B<xiii) runtime hooks>"
-msgstr ""
+msgstr "B<xiii) 実行時フック>"
 
 #. type: Plain text
 #: kernel-package.5:132
@@ -497,7 +497,7 @@ msgstr ""
 #: kernel-package.5:139
 #, no-wrap
 msgid "Disadvantages of using make-kpkg"
-msgstr ""
+msgstr "make-kpkg の欠点"
 
 #. type: TP
 #: kernel-package.5:140
@@ -512,9 +512,9 @@ msgstr ""
 
 #. type: TP
 #: kernel-package.5:144
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "B<ii) Non traditional>"
-msgstr ""
+msgstr "オプション `--posix' は `--traditional' を無効にします。"
 
 #. type: Plain text
 #: kernel-package.5:149
@@ -525,7 +525,7 @@ msgstr ""
 #: kernel-package.5:149
 #, no-wrap
 msgid "B<iii) Needs superuser>"
-msgstr ""
+msgstr "B<iii) 要スーパーユーザ>"
 
 #. type: Plain text
 #: kernel-package.5:160
@@ -535,7 +535,7 @@ msgstr ""
 #. type: Plain text
 #: kernel-package.5:164
 msgid "I</etc/kernel-pkg.conf.> I</etc/kernel-img.conf.>"
-msgstr ""
+msgstr "I</etc/kernel-pkg.conf.> I</etc/kernel-img.conf.>"
 
 #. type: Plain text
 #: kernel-package.5:168
@@ -578,8 +578,9 @@ msgstr "オプション"
 
 #. type: Plain text
 #: kernel-packageconfig.8:44
+#, fuzzy
 msgid "This utility does not have any options."
-msgstr ""
+msgstr "このカメラではいくつかのオプションをサポートしていません。"
 
 #. type: Plain text
 #: kernel-packageconfig.8:47
@@ -956,7 +957,7 @@ msgstr ""
 #. type: Plain text
 #: kernel-pkg.conf.5:348
 msgid "B<make-kpkg>(1), B<kernel-img.conf>(5), B<make>(1), B<The GNU Make manual.>"
-msgstr "B<make-kpkg>(1), B<kernel-img.conf>(5), B<make>(1), B<The GNU Make manual.>"
+msgstr "B<make-kpkg>(1), B<kernel-img.conf>(5), B<make>(1), B<GNU Make マニュアル>"
 
 #. type: TH
 #: make-kpkg.8:27
@@ -1319,7 +1320,7 @@ msgstr "\n"
 #: make-kpkg.8:365
 #, no-wrap
 msgid "TARGETS"
-msgstr ""
+msgstr "ターゲット"
 
 #. type: TP
 #: make-kpkg.8:366
